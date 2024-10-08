@@ -1,16 +1,12 @@
+import SignInPage from "./pages/SignIn";
+import SignUpPage from "./pages/SignUp";
 
-
-function App() { 
+const App = () => {
   return (
-	  <>
-	    <h1 className="text-3xl font-bold text-warnaku text-center">
-	      font body
-	    </h1>
-      <h1 className="text-5xl font-Noto_Sans_Korean text-gray-01 text-center">
-	      font korea
-	    </h1>
-	  </>
-  )
-}
+    <div className="flex justify-center min-h-screen items-center">
+      <SignUpPage />
+    </div>
+  );
+};
 
-export default App
+export default App;
