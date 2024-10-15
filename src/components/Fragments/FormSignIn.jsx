@@ -1,9 +1,7 @@
 import React from 'react'
-import Input from '../Elements/LabeledInput/Input'
-import Label from '../Elements/LabeledInput/Label'
 import LabeledInput from '../Elements/LabeledInput'
 import CheckBox from '../Elements/CheckBox'
-import Button from '../Elements/Button/Index'
+import Button from '../Elements/Button/index'
 
 const FormSignIn = () => {
   return (
