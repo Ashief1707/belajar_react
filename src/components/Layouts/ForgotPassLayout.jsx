@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../Elements/Logo'
 import { ForgotPassword } from '../Fragments/ForgotPassword'
 
+
 export const ForgotPassLayout = () => {
   return (
     <div className="flex justify-center min-h-screen items-center bg-special-mainBg">
@@ -31,6 +32,11 @@ export const ForgotPassLayout = () => {
           <ForgotPassword/>
         </div>
         {/* form end */}
+
+        {/* link start */}
+
+
+        {/* link end */}
 
       </div>
       {/* container end */}
