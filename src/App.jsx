@@ -7,11 +7,6 @@ import { ForgotPassPages } from "./pages/ForgotPassPages";
 const App = () => {
   const myRouter = createBrowserRouter([
     {
-      path: "/",
-      element: <div>Halaman Utama</div>,
-      errorElement: <ErrorRoute/>
-    },
-    {
       path: "/login",
       element: <SignInPage/>,
       
