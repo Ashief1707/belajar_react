@@ -5,12 +5,12 @@ const ExpensesPage = () => {
   return (
     <MainLayout type="balance">
       {/* top content start*/}
-      <div className="md:grid md:grid-cols-3 md:gap-x-6">
-      <Card title="Expenses Comparison"
-          desc="This is the description for Expenses Comparison, and the card will span two columns."
-          className="md:col-span-3 p-6 bg-white shadow-lg rounded-lg" />
-        
-      </div>
+      <div className="mb-8">
+      <h2 className="text-gray-500 text-lg mb-4">Expenses Comparison</h2>
+        <Card
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque quam alias enim ullam deserunt ducimus consequatur cumque hic voluptatem totam ab quibusdam facilis distinctio ratione, sequi vel porro eum."
+        />
+      </div>
       {/* top content end*/}
       <div className="md:grid md:grid-cols-3 md:gap-6">
       <Card title="Expenses Breakdown" />
